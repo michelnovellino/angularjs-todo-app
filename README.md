@@ -1,1 +1,1 @@
-# angularjs1
+# simple angularjs todo App
