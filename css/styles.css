@@ -1,0 +1,15 @@
+
+.edit-btn{
+    color: rgba(57,73,171,1) !important;
+}
+
+.delete-btn{
+    color: rgb(245,0,87) !important;
+}
+
+
+@media all and (min-width:500px){
+    th.md-column{
+        text-align: left !important;
+}
+}
