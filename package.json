@@ -5,8 +5,7 @@
   "main": "index.php",
   "scripts": {
     "serve": "node server",
-    "start": "php -S localhost:8080",
-    "build": "grunt"
+    "start": "node server"
   },
   "repository": {
     "type": "git",
