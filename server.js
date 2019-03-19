@@ -19,7 +19,7 @@ mongoose.connection.openUri(config.db,(err,res) => {
     if (err) return console.log(` no se ha podido establecer la conexion a la base de datos ${err}`);
 
     console.log('alv')
-    app.listen(config.port, () => {
+    app.listen(config.port,config.host, () => {
 
         console.log(`servidor corriendo en http://localhost:${config.port}`);
     
